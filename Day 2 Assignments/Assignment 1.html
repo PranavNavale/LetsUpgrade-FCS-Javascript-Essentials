@@ -13,9 +13,9 @@ Current time is: 10PM:30:38 -->
             document.write("Today is: "+ days[b]);
             
             if(a.getHours()>12)
-                var time= (a.getHours()-12)+" PM "+ a.getMinutes()+" "+ a.getSeconds();
+                var time= (a.getHours()-12)+" PM:"+ a.getMinutes()+":"+ a.getSeconds();
             else
-                var time= a.getHours()+" AM "+ a.getMinutes()+" "+ a.getSeconds();
+                var time= a.getHours()+" AM:"+ a.getMinutes()+":"+ a.getSeconds();
 
             document.write("<br/> Current time is: "+time);
         </script>
